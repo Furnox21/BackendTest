@@ -30,9 +30,9 @@ db.mongoose
     console.log("Cannot connect to the database!", err);
     process.exit();
   });
-app.get("/", (req, res) => {
+app.get("/student", (req, res) => {
   res.json({
-    message: "Selamat datang di matakuliah workshop pemrograman framework",
+    message: "Welcome to Student API",
   });
 });
 require("./app/routes/student.routes")(app);
