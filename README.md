@@ -4,7 +4,7 @@
 <br/>
 Tech Stack = NodeJS, ExpressJs, MongoDB
 <br/>
-API Deploy = ***Heroku***
+API Deploy = Heroku
 
 1. GET All Student Data   : https://fierce-stream-83015.herokuapp.com/api/student
 2. GET One Student Data	  : https://fierce-stream-83015.herokuapp.com/api/student/:id
